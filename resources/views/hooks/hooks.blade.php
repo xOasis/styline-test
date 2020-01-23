@@ -3,7 +3,6 @@
 @section('content')
     <div class="container">
         <div class="row justify-content-center">
-            werg
             @foreach($hooks as $hook)
                 <div class="col-md-8">
                     <div class="card">

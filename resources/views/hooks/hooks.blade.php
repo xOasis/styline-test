@@ -9,7 +9,7 @@
                         <div class="card-header">Commit id :
                             {{$hook->commit_id}}</div>
                         <div class="card-body">
-                            <p>Committer: {{$hook->pusher}}</p>
+                            <h6>Committer: {{$hook->pusher}}</h6>
                             <p>Message: {{$hook->message}}</p>
                         </div>
                     </div>

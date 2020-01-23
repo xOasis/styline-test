@@ -24,4 +24,4 @@ Route::get('/callback/{provider}', 'SocialController@callback');
 
 Route::post('/webhook', 'WebhookController@webhookPost')->name('webhook');
 
-Route::get('/webhooks', 'WebhookController@showHooks');
+Route::get('/webhooks', 'WebhookController@showHooks')->middleware('auth');
